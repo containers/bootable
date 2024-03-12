@@ -5,7 +5,8 @@ The bootc tooling and project are the nexus of a lot of the functionality that e
  * [bootc documentation](https://containers.github.io/bootc/)
  * [bootc on Github](https://github.com/containers/bootc)
 
-Obviously all the usual container tooling should be used to build images, such as Podman, Docker, Quay, Docker Hub, and so on. The Image Builder project can be used to convert bootable container images to disk images when necessary:
+Obviously all the usual container tooling should be used to build images, such as [Podman](http://podman.io/), [Docker](https://www.docker.com/), [Quay](https://quay.io/), [Docker Hub](https://hub.docker.com/), and so on.
+The Image Builder project can be used to convert bootable container images to disk images when necessary:
 
  * [bootc-image-builder on Github](https://github.com/osbuild/bootc-image-builder)
 
