@@ -1,0 +1,6 @@
+[book]
+authors = ["Colin Walters", "Stef Walter"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Bootable Container Images"
