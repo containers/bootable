@@ -26,6 +26,6 @@ This default behavior can be adapted or controlled by a larger management system
 
 1. It should always be possible to factory reset back to either the known built behavior of the system or roll back to previous behavior if an updated image does not function correctly.
 
-1. A cryptographic trust chain that runs from the hardware, through the boot loader, through the operating system all the way to the apps ensures that only the expected code is run, and the contents of the operating system and applications have not been changed unexpectedly.
+1. A cryptographic trust chain that runs from the hardware, through the boot loader, through the operating system all the way to the applications ensures that only the expected code is run, and the contents of the operating system and applications have not been changed unexpectedly.
 If something has been changed, or changes at runtime unexpectedly, the system can alert or stop.
 The builder of the images can sign the images with keys that are under their own control, or of course build images and deploy systems without a trust chain.
