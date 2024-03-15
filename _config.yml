@@ -5,5 +5,5 @@ theme: just-the-docs
 url: https://containers.github.io/bootable
 search_enabled: false
 
-#aux_links:
-#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links:
+  Contribute to these pages: https://github.com/containers/bootable
