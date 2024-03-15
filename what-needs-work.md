@@ -19,6 +19,4 @@ Broadly there are several areas where we haven’t yet reached our [goals](missi
 This would be confusing to a developer or someone trying to adopt these images.
 The behavior is different from the behavior of containers, where you can make changes to a running container, stop and  start that container without losing those local changes.
 
- * Currently when we deploy a bootable container image to a stock Linux system, without bootc already present, it is not possible to roll back. We should fix this.
-
- * Currently the tooling and the base images are limited to using RPM components in the container images. (bootc #468)
+ * Currently the tooling and the base images are limited to using RPM components in the container images. (See: [https://github.com/coreos/bootupd/issues/468])
