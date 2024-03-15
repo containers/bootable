@@ -3,7 +3,7 @@ title: Goals
 layout: home
 ---
 
-## Image Based Linux with Bootable container images
+## Image Based Linux with Bootable Container Images
 
 Over the last decade, [OCI containers](https://specs.opencontainers.org/image-spec/) have become a de facto way to deploy a complete functioning Linux user space as an application.
 A large set of practices and tooling has evolved around them.
