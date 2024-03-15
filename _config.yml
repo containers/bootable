@@ -1,0 +1,8 @@
+title: Bootable container images
+description: Bootable container images
+theme: just-the-docs
+
+url: https://containers.github.io/bootable
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
