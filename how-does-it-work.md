@@ -25,7 +25,7 @@ This includes things like passwords, SSH keys, home directories.
 These things can arrive on the system in the typical way, such as local configuration, cloud-init, or via management tools like Ansible.
 
 It is recommended to have the container image content be read only at runtime for both the operating system and application containers.
-It will be possible and supported to use a local overlay file system as well as a commit process to enable debugging.  However, local changes would not persist across reboots without further action.
+It will be possible and supported to use a local overlay file system as well as a commit process to enable debugging.  However, changes to the local overlay would not persist across reboots without further action.
 
 It is recommended that general purpose bootable containers ship with at least a minimal installation tool that can execute from the container itself and write to a block device, similar to a “self-extracting zip file”.
 However it must also be a first class operation to generate disk images (ISO, qcow2, etc) from bootable containers for general purpose operating systems.
