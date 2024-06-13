@@ -15,6 +15,13 @@ The Image Builder project can be used to convert bootable container images to di
 
  * [bootc-image-builder on Github](https://github.com/osbuild/bootc-image-builder)
 
+Packages and software should use the various standards that together work toward making an immutable and hermetic. Each of these work toward the same principles that make software behave better bootable contianers and containers in general.
+
+ * [UAPI: Linux Userspace API Group](https://uapi-group.org/)
+ * [Config file specification](https://uapi-group.org/specifications/specs/configuration_files_specification/), contribute to [Particle OS](https://0pointer.net/blog/fitting-everything-together.html)
+ * Use [systemd-sysusers](https://www.freedesktop.org/software/systemd/man/latest/systemd-sysusers.html) or [DynamicUser=yes](https://0pointer.net/blog/dynamic-users-with-systemd.html)
+ * RPM packaging: Move from `%post` to systemd units
+
 The composefs, overlayfs, fs-verity and UKI provide the basic technology to pursue the trust chain work.
 
  * [composefs on Github](https://github.com/containers/composefs)
@@ -26,11 +33,14 @@ Podman Desktop can be used to get started with bootable container images:
 
  * [Podman Desktop bootc extension](https://github.com/containers/podman-desktop-extension-bootc)
 
-Linux distributions like Bluefin and more broadly the Universal Blue project are pursuing this today.
+Linux workstation distributions like Bluefin and more broadly the Universal Blue project are pursuing this today.
 
  * [Project Bluefin](https://projectbluefin.io/)
  * [Universal Blue](https://universal-blue.org/)
 
 There are proposals in Fedora to implement bootable container images as an image mode for the operating system.
 
+ * [Fedora bootc images](https://docs.fedoraproject.org/en-US/bootc)
  * [Fedora change proposal](https://fedoraproject.org/wiki/Changes/OstreeNativeContainerStable)
+ * [Fedora change Sysusers](https://fedoraproject.org/wiki/Changes/SystemdSysusers)
+ * [Fedora change zstd:chunked](https://fedoraproject.org/wiki/Changes/zstd:chunked)
