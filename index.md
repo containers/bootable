@@ -7,14 +7,15 @@ layout: home
 
 Over the last decade, [OCI containers](https://specs.opencontainers.org/image-spec/) have become a de facto way to deploy a complete functioning Linux user space as an application.
 A large set of practices and tooling have evolved around them.
-Bootable containers are a modern opinionated way of deploying, configuring and managing immutable image based Linux systems.
+Bootable containers are a modern opinionated way of deploying, configuring and managing image based Linux systems.
 
 Our goals are:
 
 1. Use standard container practices and tooling, such as the [OCI standard](https://specs.opencontainers.org/image-spec/), layering, container registries, [signing](https://docs.sigstore.dev/signing/signing_with_containers/), testing, and GitOps workflows to build Linux systems.
 
-1. Container images describe the operating system behavior as a prebuilt predefined unit, rather than defined during deployment out of fine grained packages.
-There is a strong bias toward having the full system definition committed to version control, including a list of components, application files and system configuration.  This bias helps implement the concept of a more composable operating system.
+1. Container images describe the operating system behavior as a prebuilt predefined unit, rather than defined as a set of fine grained packages during deployment.
+There is a strong bias toward having the full system definition committed to version control, including a list of components, application files, and system configuration.
+This bias leads to a composable operating system that can be iterated upon quickly. 
 
 1. The system updates atomically.
 It is robust to power outages or software failures during updates.
@@ -24,7 +25,7 @@ The system either uses the contents of the old system, or the new image; Never s
 Updates can be delayed or scheduled.
 This default behavior can be adapted or controlled by a larger management system.
 
-1. If an update does not function correctly it is possible to roll back to the container image previously functioning before the update.
+1. If an update does not function correctly it is possible to roll back to the container image previously functioning before the update, or to any previously bootable version in the registry. 
 
 1. State (including per-machine configuration) is preserved across updates.
 State is written to specific writable directories on the system, by default these are /etc and /var.
