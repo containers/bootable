@@ -33,10 +33,10 @@ Podman Desktop can be used to get started with bootable container images:
 
  * [Podman Desktop bootc extension](https://github.com/containers/podman-desktop-extension-bootc)
 
-Linux workstation distributions like Bluefin and more broadly the Universal Blue project are pursuing this today.
+The Universal Blue project is pursuing this today via a variety of images: 
 
- * [Project Bluefin](https://projectbluefin.io/)
- * [Universal Blue](https://universal-blue.org/)
+* [Universal Blue](https://universal-blue.org/)
+  * [Bazzite](https://bazzite.gg), [Aurora](https://getaurora.dev), [Bluefin](https://projectbluefin.io/), and [uCore](https://github.com/ublue-os/ucore)
 
 There are proposals in Fedora to implement bootable container images as an image mode for the operating system.
 
