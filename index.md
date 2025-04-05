@@ -11,7 +11,7 @@ Bootable containers are a modern opinionated way of deploying, configuring and m
 
 Our goals are:
 
-1. Use standard container practices and tooling, such as the [OCI standard](https://specs.opencontainers.org/image-spec/), layering, container registries, [signing](https://docs.sigstore.dev/signing/signing_with_containers/), testing, and GitOps workflows to build Linux systems.
+1. Use standard container practices and tooling, such as the [OCI standard](https://specs.opencontainers.org/image-spec/), layering, container registries, [signing](https://docs.sigstore.dev/cosign/signing/signing_with_containers/), testing, and GitOps workflows to build Linux systems.
 
 1. Container images describe the operating system behavior as a prebuilt predefined unit, rather than defined as a set of fine grained packages during deployment.
 There is a strong bias toward having the full system definition committed to version control, including a list of components, application files, and system configuration.
