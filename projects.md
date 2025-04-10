@@ -15,7 +15,7 @@ The Image Builder project can be used to convert bootable container images to di
 
  * [bootc-image-builder on Github](https://github.com/osbuild/bootc-image-builder)
 
-Packages and software should use the various standards that together work toward making an immutable and hermetic. Each of these work toward the same principles that make software behave better bootable contianers and containers in general.
+Packages and software should use the various standards that together work toward making an immutable and hermetic. Each of these work toward the same principles that make software behave better bootable containers and containers in general.
 
  * [UAPI: Linux Userspace API Group](https://uapi-group.org/)
  * [Config file specification](https://uapi-group.org/specifications/specs/configuration_files_specification/), contribute to [Particle OS](https://0pointer.net/blog/fitting-everything-together.html)
