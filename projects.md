@@ -33,6 +33,10 @@ Podman Desktop can be used to get started with bootable container images:
 
  * [Podman Desktop bootc extension](https://github.com/containers/podman-desktop-extension-bootc)
 
+HeliumOS updates are distributed as bootc images
+
+* [HeliumOS](https://www.heliumos.org/)
+
 The Universal Blue project is pursuing this today via a variety of images: 
 
 * [Universal Blue](https://universal-blue.org/)
